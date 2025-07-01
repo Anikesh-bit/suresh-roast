@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🔥 About someone who was left in the running oven 🔥</title>
+  <style>
+    body {
+      font-family: 'Courier New', monospace;
+      background-color: #111;
+      color: #eee;
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      color: #ff4500;
+      font-size: 3rem;
+    }
+    .roast-box {
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: #222;
+      border: 2px solid #ff4500;
+      border-radius: 10px;
+      max-width: 600px;
+      font-size: 1.2rem;
+    }
+    button {
+      padding: 0.5rem 1rem;
+      margin-top: 1rem;
+      font-size: 1rem;
+      background: #ff4500;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #ff6347;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔥 সুৰেশ জীয়াই থকা জ্বলা কয়লা 🔥</h1>
+  <div class="roast-box" id="roastBox">
+    Click the button to roast this man beyond repair.
+  </div>
+  <button onclick="generateRoast()">Roast </button>
+
+  <script>
+    const roasts = [
+      "Suresh is the only guy whose face turns auto-dark mode during the day.",
+      "His birth certificate is an apology letter from God.",
+      "He tried to roast me once. I didn’t hear him — the L’s in his voice were too loud.",
+      "His brain is like a prepaid SIM card. Limited data, zero incoming logic.",
+      "When he smiles in the dark, it’s just two floating teeth — like a haunted Colgate ad.",
+      "He posted a selfie with #NoFilter. Instagram flagged it for graphic content.",
+      "Suresh isn’t a person. He’s an accidental software glitch in human form.",
+      "He’s not the ‘main character’, bro is the loading screen.",
+      "He acts like an alpha male, but gets friendzoned in UNO.",
+      "Even mosquitoes avoid biting him — they said 'we don’t snack on charcoal.'",
+      "Suresh's luck is so bad, even his shadow left him for a more successful person.",
+      "He thinks he's deep and mysterious — nah, he's just confused 24/7.",
+      "He doesn't glow up, he 'glows down'. Every year, downgraded version.",
+      "He once uploaded a voice note — people replied 'audio quality is fine, content is garbage'.",
+      "He’s so useless in a group project, even the teacher forgets he exists.",
+      "If stupidity paid rent, Suresh would own a mansion.",
+      "He once tried to be smart — Google blacklisted him.",
+      "He’s like a downloaded meme with no punchline — just vibes and confusion.",
+      "He walks into a room and the Wi-Fi signal weakens from embarrassment.",
+      "He laughs at others, but cries at night when people forget he exists.",
+      "He joked about my tummy — now watch me carve his reputation like a butter sculpture in summer.",
+      "Even AI can’t understand him — they filed a bug report.",
+      "Suresh looks like the human version of a buffering YouTube ad.",
+      "He thinks he's rare — yeah, rare like a system error no one wants to fix.",
+      "If common sense were a superpower, Suresh would be a villain from a comedy film.",
+      "He doesn’t cast a shadow — he is the shadow.",
+      "His vibe is like expired milk — off, weird, and makes everyone uncomfortable.",
+      "He joined the gym once — the dumbbells left.",
+      "They say only black hole absorbe 100% light.If its true then Suresh would be the human form of it ",
+      "He walks like a wet slipper and talks like a broken remix.",
+      "His confidence is built on likes he gave himself from a fake account.",
+      "Suresh’s future is so dark even coal said, 'Bro, chill.'",
+      "He once took a mirror selfie — the mirror filed a restraining order.",
+      "He's not low-key, he's low-quality.",
+      "If being annoying was a sport, Suresh would be a world champion with no competition.",
+      "His life is like a web series nobody asked for and everyone stopped watching.",
+      "Suresh’s presence is so dull, even silence gets louder when he talks.",
+      "He told ChatGPT to roast someone once — even I felt bad after replying.",
+      "His pickup lines are so bad, even spam folders say ‘not interested’.",
+      "Bro is so dark that if you connect two electorde with him it will start producing electricity",
+      "He has such bad luck, when he fell into a wishing well, it refunded everyone’s wishes."
+    ];
+
+    function generateRoast() {
+      const randomIndex = Math.floor(Math.random() * roasts.length);
+      document.getElementById('roastBox').innerText = roasts[randomIndex];
+    }
+  </script>
+</body>
+</html>
